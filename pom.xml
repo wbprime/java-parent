@@ -65,8 +65,9 @@
     <!-- libs: testing -->
     <junit_version>4.12</junit_version>
     <hamcrest_version>1.3</hamcrest_version>
+    <assertj_core_version>3.7.0</assertj_core_version>
     <concurrentunit_version>0.4.2</concurrentunit_version>
-    <mockito_version>2.8.9</mockito_version>
+    <mockito_version>1.10.19</mockito_version>
     <powermock_version>1.6.6</powermock_version>
   </properties>
 
@@ -155,6 +156,12 @@
         <version>${hamcrest_version}</version>
         <scope>test</scope>
       </dependency>
+	  <dependency>
+	  	<groupId>org.assertj</groupId>
+	  	<artifactId>assertj-core</artifactId>
+	  	<version>${assertj_core_version}</version>
+	  	<scope>test</scope>
+	  </dependency>
       <dependency>
         <groupId>net.jodah</groupId>
         <artifactId>concurrentunit</artifactId>
